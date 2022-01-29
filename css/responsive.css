@@ -1,0 +1,92 @@
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 320px) and (max-width: 576.98px) {
+    .navbar {
+        background: #ffff;
+    }
+    .w-100 {
+        width: 60% !important;
+    }
+    button {
+        border: none;
+        outline: none;
+        color: #022246;
+    }
+    .navbar-toggler .navbar-toggler-icon i {
+        padding: 6px 0px;
+        font-size: 18px;
+        line-height: 1;
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-toggler .navbar-toggler-icon i:first-child {
+        display: none;
+    }
+    .navbar-toggler .navbar-toggler-icon i:last-child {
+        display: block;
+    }
+    .collapsed .navbar-toggler-icon i:first-child {
+        display: block;
+    }
+    .collapsed .navbar-toggler-icon i:last-child {
+        display: none;
+    }
+    .nav-item {
+        text-align: right;
+    }
+    .nav-link {
+        line-height: 15px;
+        font-size: 16px;
+        margin-left: 218px;
+        padding-right: 10px;
+        text-align: right;
+        display: inline-block;
+    }
+    .signup {
+        text-align: right;
+        margin-right: 15px;
+    }
+    .signup a {
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    .banner_text {
+        margin-top: 75px;
+    }
+    .banner_text h2 {
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .img_two {
+        top: 105px;
+        left: 35px;
+    }
+    .banner_text h4 {
+        text-align: center;
+        line-height: 26px;
+    }
+    .img_three {
+        top: 241px;
+        left: 10px;
+    }
+    .child_img img {
+        position: absolute;
+        top: 642px;
+        right: 30px;
+        width: 250px;
+    }
+    .banner_img img {
+        position: relative;
+        top: 92px;
+        width: 250px;
+        z-index: 9999;
+    }
+}
